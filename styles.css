@@ -63,6 +63,10 @@ nav a{
 .arrow{
     margin: 5px;
 }
+.banner-image:hover{
+    transform: rotate(360deg);
+    transition: transform 3s ease;
+}
 .brand-icons{
     display: flex;
     justify-content: center;
