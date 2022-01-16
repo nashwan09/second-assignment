@@ -134,6 +134,34 @@ padding-left: 10px;
     text-align: right;
     margin-right: 70px;
 }
+.suggestion-box{
+    margin-bottom: 100px;
+}
 .see-more a{
     text-decoration: none;
+}
+.message-section{
+    display: flex;
+    background-color: lightsteelblue;
+}
+.suggestion-words{
+    font-size: 52px;
+    font-weight: 700;
+}
+.footer-line{
+    font-size: 24px;
+    font-weight: 700;
+}
+.media-icon{
+    color: white;
+    margin-right: 10px;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    height: 200px;
+   padding: 20px;
+}
+.info-section{
+    color: white;
 }
