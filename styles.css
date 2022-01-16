@@ -1,0 +1,78 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+ .logo{
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 80px;
+    padding: 40px;
+
+}
+
+nav{
+    display: flex;
+line-height: 80px;
+list-style: none;
+  justify-content: space-between;  
+  padding-right: 60px;
+  margin-top: 40px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: 1em;
+    
+}
+.top-section{
+    display: flex;
+    margin-bottom: 100px;
+    
+}
+.slogan{
+    font-size: 52px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+.screen-share img{
+    width: 80%;
+}
+.screen-share{
+    width: 50%;
+    padding: 40px;
+}
+.banner-paragraph{
+    margin-bottom: 25px;
+    text-align:justify;
+    width: 510px;
+}
+.book-now{
+    text-decoration: none;
+    background-color: #E02C6D;
+    padding: 10px 40px;
+    font-weight: 600;
+    color: white;
+    border-radius: 40px;
+}
+/* .arrow{
+    margin-right: 105px;
+} */
+.brand-icons{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    width: 950px;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    
+}
+.icon{
+    margin: 20px;
+}
