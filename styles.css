@@ -1,5 +1,8 @@
 body{
     font-family: 'Poppins', sans-serif;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
  .logo{
@@ -29,7 +32,7 @@ nav a{
 .top-section{
     display: flex;
     margin-bottom: 100px;
-    
+    width: 100%;
 }
 .slogan{
     font-size: 52px;
@@ -46,7 +49,7 @@ nav a{
 .banner-paragraph{
     margin-bottom: 25px;
     text-align:justify;
-    width: 510px;
+    width: 100%;
 }
 .book-now{
     text-decoration: none;
@@ -55,10 +58,11 @@ nav a{
     font-weight: 600;
     color: white;
     border-radius: 40px;
+    width: 100%;
 }
-/* .arrow{
-    margin-right: 105px;
-} */
+.arrow{
+    margin: 5px;
+}
 .brand-icons{
     display: flex;
     justify-content: center;
@@ -81,7 +85,7 @@ nav a{
     font-weight: 600;
     text-align: center;
 }
-.container{
+.popular-section{
     margin-bottom: 100px;
 }
 .items{
@@ -143,6 +147,10 @@ padding-left: 10px;
 .message-section{
     display: flex;
     background-color: lightsteelblue;
+    width:100%;
+}
+.text-area{
+    width: 100%;
 }
 .suggestion-words{
     font-size: 52px;
@@ -158,10 +166,37 @@ padding-left: 10px;
 }
 footer{
     text-align: center;
-    background-color: black;
+    background-color: rgb(30, 5, 59);
     height: 200px;
    padding: 20px;
 }
 .info-section{
     color: white;
+}
+/* Media queries */
+/* Mobile devices */
+@media only screen and (max-width:688px ) {
+    .container{
+        width: 100%;
+    }
+    .items{
+        
+        grid-template-columns: repeat(1,1fr);
+    }
+    .nav,.top-section,.icons,.message-section{
+        flex-direction: column;
+    }
+}
+/* tablets devices*/
+@media only screen and (min-width:688px ) and (max-width:992px ){
+    .container{
+        width: 100%;
+    }
+    .items{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .nav,.top-section,.icons,.message-section{
+        grid-template-columns: repeat(1,1fr);
+
+    }
 }
